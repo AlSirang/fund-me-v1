@@ -110,7 +110,6 @@ contract FundMe {
     }
 
     constructor(address priceFeedContract_) {
-        // 0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e goerli ETH/USD
         _i_priceFeedContract = priceFeedContract_;
         i_owner = msg.sender;
     }
